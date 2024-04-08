@@ -1,5 +1,5 @@
 # The AUHSD Talent Gateway
-The AUHSD Talent Gateway is a .NET-based program designed to improve student involvement in high school events. It tracks student participation and attendance, awards points, and offers prizes based on accumulated points. The program incentivizes students to engage in school events, promoting teamwork, leadership, and time management skills. By making it easier for schools to plan events and engage with their student body, SchoolBoost aims to enhance the overall school experience for students.
+The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the job market. It provides communication with the users of the program, letting them know every step of their application. It essentially makes the job application industry much more transparent while maintaining numerous features such as having a profile, submitting videos, photos, resume, and more. It sends emails to the users regarding their application as well as has the ability for admins to delegate the applications to different HR and Interview Panels. This program essentially aims in making the Job Application process as streamlined and accessible for employees and employers.
 
 ## Requirements
 - Operating system: Windows
@@ -70,11 +70,11 @@ The AUHSD Talent Gateway is a .NET-based program designed to improve student inv
 
 ## Usage
 
-- Use the program to track student participation and attendance at school events.
-- Track the amount of time students spend participating in each event.
-- Generate reports at the end of the quarter to show points per student in each grade and the event participation count.
-- Use the leaderboard to track the top participants and the amount of time they spent participating.
-- Post pictures at events
+- Use the program to apply for jobs.
+- Use the program to add jobs to allow prospective employees to apply.
+- Manage users of the program in a very effective manner.
+- Send emails to prospective employees.
+- Delegate tasks upon interviewing candidates.
 
 ## Credits
 
