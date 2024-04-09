@@ -18,7 +18,7 @@ The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the j
 
 
 1.2. Open the source code in your local IDE
-  - Navigate to FBLA.sln located in "C:\Users\\**<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\FBLA_JOB_PORTAL\FBLA_JOB_PORTAL.sln"
+  - Navigate to FBLA_JOB_PORTAL.sln located in "C:\Users\\**<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\FBLA_JOB_PORTAL\FBLA_JOB_PORTAL.sln"
 
 ### 2. Install required packages and modules:
 
