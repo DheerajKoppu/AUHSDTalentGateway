@@ -19,7 +19,7 @@ The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the j
 
 1.2. Open the source code in your local IDE
   - Navigate to FBLA_JOB_PORTAL.sln located in "C:\Users\\**<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\FBLA_JOB_PORTAL\FBLA_JOB_PORTAL.sln"
-  - Navigate to Fbla_Jobs.sln located in "C:\Users\***<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\Fbla_Jobs\Fbla_Jobs.sln"
+  - Navigate to Fbla_Jobs.sln located in "C:\Users\\**<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\Fbla_Jobs\Fbla_Jobs.sln"
   - Right Click on the project name and click “Build” and “Publish”
   - Choose a target location on your computer for the file to be published to
   - Open Task Scheduler and click on “Create Basic Task” and name it “FBLA Jobs”
@@ -74,6 +74,9 @@ The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the j
 4.3. If you would like to erase all the data from the tables, use the command `truncate <TABLE NAME>` on every table.
 
 4.4. To establish a connection between Dotnet and SQL, update the connection string ID within the Web.Config file with your own login credentials
+4.5. To use the AI Resume Analyzer Feature, replace the OpenAI API key with your own.
+4.6. To get emails for all errors in the program, replace the email in the Web.Config File
+4.7. To replace the email where users receive job information from, replace the email "auhsdtalentgateway@gmail.com" with yours wherever needed. In addition, add your own App Password through your email provider as well.
 
 ## Usage
 
