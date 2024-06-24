@@ -1,5 +1,5 @@
 # The AUHSD Talent Gateway
-The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the job market. It provides communication with the users of the program, letting them know every step of their application. It essentially makes the job application industry much more transparent while maintaining numerous features such as having a profile, submitting videos, photos, resume, and more. It sends emails to the users regarding their application as well as has the ability for admins to delegate the applications to different HR and Interview Panels. This program essentially aims in making the Job Application process as streamlined and accessible for employees and employers.
+The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the job market. It provides communication with the users of the program, letting them know every step of their application. It essentially makes the job application industry much more transparent while maintaining numerous features such as having a profile, submitting videos, photos, resume, and more. AI is used to make the application process more simpler to the users as well as administrators as well. It sends emails to the users regarding their application as well as has the ability for admins to delegate the applications to different HR and Interview Panels. This program essentially aims in making the Job Application process as streamlined and accessible for employees and employers. 
 
 ## Requirements
 - Operating system: Windows
@@ -19,7 +19,15 @@ The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the j
 
 1.2. Open the source code in your local IDE
   - Navigate to FBLA_JOB_PORTAL.sln located in "C:\Users\\**<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\FBLA_JOB_PORTAL\FBLA_JOB_PORTAL.sln"
-
+  - Navigate to Fbla_Jobs.sln located in "C:\Users\***<YOUR_USERNAME>**\Downloads\AUHSD Talent Gateway\Fbla_Jobs\Fbla_Jobs.sln"
+  - Right Click on the project name and click “Build” and “Publish”
+  - Choose a target location on your computer for the file to be published to
+  - Open Task Scheduler and click on “Create Basic Task” and name it “FBLA Jobs”
+  - Choose the trigger to be daily and choose what time you want it to occur at
+  - Choose “Start a Program” as the action
+  - Click Browse and choose the Batch File where you published the Fbla_Jobs program to.
+  - Click Finish
+    
 ### 2. Install required packages and modules:
 
 2.1. Open a project in Visual Studio
@@ -28,22 +36,21 @@ The AUHSD Talent Gateway is a .NET-based program designed to revolutionize the j
 
 2.3. In the Browse Section, install the following if not already installed:
 
-- DocumentFormat.OpenXml
-- System.ValueTuple
-- System.Threading.Tasks.Extensions
-- System.Runtime.CompilerServices.Unsafe
-- System.Numerics.Vectors
-- System.Memory
-- System.Diagnostics.DiagnosticSource
-- System.Buffers
-- Microsoft.Extensions.Primitives
-- Microsoft.Extensions.Options
-- Microsoft.Extensions.Logging.Abstractions
-- Microsoft.Extensions.Logging
-- Microsoft.Extensions.DependencyInjection.Abstractions
-- Microsoft.Extensions.DependencyInjection
-- Microsoft.CodeDom.Providers.DotNetCompilerPlatform
-- Microsoft.Bcl.AsyncInterfaces
+- Azure.AI.OpenAI
+- Azure.Core
+- bootstrap
+- CountryData
+- OpenAI
+- NUnit
+- jQuery
+- iText
+- Modernizer
+- PdfSharp
+- Polysharp
+- Rotativa
+- TOTP
+- Otp.NET
+- PagedList
 
 ### 3. Run the program:
 
